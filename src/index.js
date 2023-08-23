@@ -11,6 +11,9 @@ import Home from './Home/Home';
 import Playground from './Playgound/Playground';
 import ErrorPage from './Home/Error';
 import Bag from './Bag/Bag';
+import * as dotenv from "dotenv";
+dotenv.config();
+console.log(process.env.SECRET_CODE);
 
 const router = createBrowserRouter([
   {
