@@ -1,11 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import App from './App';
-import { store } from './store';
-import { Provider } from 'react-redux';
 import reportWebVitals from './reportWebVitals';
+<<<<<<< HEAD
 import Layout from './Layout/Layout';
 import Home from './Home/Home';
 import Playground from './Playgound/Playground';
@@ -43,13 +41,13 @@ const router = createBrowserRouter([
     ]
   }
 ])
+=======
+>>>>>>> parent of c35c7fc... redux first touch
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Provider store={store}>
-        <RouterProvider router={router} />
-    </Provider>
+    <App />
   </React.StrictMode>
 );
 
