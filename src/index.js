@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 <<<<<<< HEAD
+<<<<<<< HEAD
 import Layout from './Layout/Layout';
 import Home from './Home/Home';
 import Playground from './Playgound/Playground';
@@ -41,6 +42,8 @@ const router = createBrowserRouter([
     ]
   }
 ])
+=======
+>>>>>>> parent of c35c7fc... redux first touch
 =======
 >>>>>>> parent of c35c7fc... redux first touch
 

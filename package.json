@@ -4,8 +4,11 @@
   "private": true,
   "dependencies": {
 <<<<<<< HEAD
+<<<<<<< HEAD
     "@prisma/client": "^5.2.0",
     "@reduxjs/toolkit": "^1.9.5",
+=======
+>>>>>>> parent of c35c7fc... redux first touch
 =======
 >>>>>>> parent of c35c7fc... redux first touch
     "@testing-library/jest-dom": "^5.17.0",
